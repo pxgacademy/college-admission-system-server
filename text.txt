@@ -1,0 +1,5 @@
+pnpm add express cors mongoose dotenv cookie-parser jsonwebtoken zod bcryptjs
+
+
+touch user.controller.ts user.interface.ts user.model.ts user.service.ts user.validation.ts user.route.ts
+

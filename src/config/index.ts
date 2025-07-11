@@ -1,3 +1,6 @@
+import { config } from "dotenv";
+config();
+
 interface EnvConfig {
   port: string;
   mongo_url: string;

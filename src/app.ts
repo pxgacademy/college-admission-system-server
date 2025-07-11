@@ -16,7 +16,7 @@ app.use("/api/v1", router);
 
 // ROOT ROUTES
 app.get("/", (req: Request, res: Response) => {
-  res.status(200).json({ message: "Welcome to PH Tour Management Server" });
+  res.status(200).send("<h1>Welcome to College Management System Server</h1>");
 });
 
 // Global Error Handler
